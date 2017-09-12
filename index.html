@@ -1,1 +1,63 @@
-Hello World
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <header class="site-header">
+
+    <div class="wrap title-wrap">
+      <a class="site-title" href="/">Mountain Project Tick Data</a>
+    </div>
+  </header>
+
+
+      <div class="page-content">
+        <div class="wrap">
+        <div class="post">
+The following charts are fun ways of visualizing mountain project users route ticks.
+<br>
+<br>
+<ul>
+  <li><a href="average_by_age">Average Tick Grade by Age.</a></li>
+  <li><a href="average_by_state">Average Tick Grade by State.</a></li>
+  <!-- <li><a href="average_by_age">Gender and Average Tick Grade by State.</li> -->
+  <li><a href="#hist">Histogram of Average Tick Grade by Gender</a></li>
+  <li><a href="#hmap">Heatmap of the Most Popular climbing areas.</a></li>
+</ul>
+</div>
+<br>
+<h3><a name="average_by_age"></a>Average Tick Grade by Age.</h3>
+<!-- <article class="post-content"> -->
+
+<div class="fig figcenter fighighlight">
+  <img src="grade_age.png">
+</div>
+
+<h3><a name="average_by_state"></a>Average Tick Grade by State.</h3>
+<!-- <article class="post-content"> -->
+
+<div class="fig">
+  <img src="grade_state.png">
+</div>
+
+<h3><a name="hist"></a>Histogram of Average Tick Grade by Sex.</h3>
+
+<div class="fig figcenter fighighlight">
+  <img src="histogram_sex.png", width="100%">
+</div>
+
+<h3><a name="hmap"></a>Heat Map of The Most Ticked Routes.</h3>
+
+<div class="fig figcenter fighighlight">
+  <iframe src="heatmap.html" style="border: 0; width:100%; height:500px;"></iframe>
+
+</div>
+
+
+
+
+</body>
+
+</html>
